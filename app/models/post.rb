@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-    has_on_attached :content
+    has_one_attached :content
     belongs_to :user
 
     validates :introduction, presence: true
