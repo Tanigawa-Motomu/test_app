@@ -1,7 +1,7 @@
 databases:
   - name: test_app_DB
     databaseName: test_app_db_x7m1
-    user: example_db_xxxx_user(Renderで作成したデータベースのところにあるInfo>Connections>Username) # 編集
+    user: test_app_db_x7m1_user
     region: singapore
 
 services:
