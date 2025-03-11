@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
-  database: storage/production.sqlite3
+  # database: db/production.sqlite3 #削除
+  adapter: postgresql # 追加
+  encoding: unicode # 追加
+  pool: 5 # 追加
